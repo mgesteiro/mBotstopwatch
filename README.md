@@ -14,7 +14,7 @@ It uses an **infrared sensor** to detect de mBot passing by and a **4-Digit LED 
 
 
 ## 3D
-In this folder you can find the [FreeCAD](https://freecadweb.org/) model with all the parts, so you can adjust/modify/adapt the design to your own parts (or desires). There is also an *[STL file](3D/frame.stl)* for the frame, ready to be sliced and 3D-printed.
+In this folder you can find the [FreeCAD](https://freecadweb.org/) model with all the parts, so you can adjust/modify/adapt the design to your own available parts (or desires). There is also an *[STL file](3D/frame.stl)* of the frame, ready to be sliced and 3D-printed.
 
 ![FreeCAD rendering of the project](3D/render.png)
 
@@ -24,7 +24,7 @@ In this folder you can find the code, ready to be used with the [PlatformIO core
 
 If you want to use it with the [Arduino IDE](https://www.arduino.cc/en/Main/Software#download), just place all the code in the `/src` and `/lib/TM1637` folders together into a folder called `/crono` and then open the `crono.cpp` file into de IDE itself: from here on, you can operate as usual with any other *Arduino* program.
 
-In the top part of the `crono.cpp` file there ares some configurable parameters:
+In the top part of the `crono.cpp` file there are some configurable parameters:
 * `CLK`, `DIO`: pins to which the display is connected (2 and 3 by default)
 * `IR_PIN`: pin to which the IR sensor is connected (6 by default)
 * `KP_PIN`: pin to which the keypad is connected (A4 by default)
