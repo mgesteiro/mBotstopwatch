@@ -32,6 +32,11 @@ In the top part of the `crono.cpp` file there are some configurable parameters:
 * `SHOW_LAP_TIME`: for how long do we show the previous lap time before resuming normal counting (*milliseconds*, 2s by default)
 * `CLEAR_WINDOW`: security window during which the sensor is ignored after an initial detection, to prevent *artifacts* (*milliseconds*). Should be aproximately the *size* of the *mBot* passing time (1.5s by default)
 
+## Circuit
+In this folder you can find the assembled circuit (done with [Fritzing](http://fritzing.org/)), including the way to mount the switches and the resistors together to get them working with the code. All the connected pins correspond also to the default values in the code itself.
+
+![Fritzing assembly of the project](circuit/mBotstopwatch.png)
+
 
 ## Electronics
 These are the parts I used during the creation of this project. Mentioned here as a reference (no affiliation).
