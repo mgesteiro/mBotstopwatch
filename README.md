@@ -56,6 +56,9 @@ These are the parts I used during the creation of this project. Mentioned here a
   https://www.aliexpress.com/store/product/Jumper-Dupont-wire-4-100mm-Male-to-Female-M-F-3x40L-ribbon-3-ribbons-Totally-120/1950989_32802249806.html
 
 ###### by Others
+* 1x Infrared Obstacle Sensor<br />
+  https://www.aliexpress.com/wholesale?SearchText=infrared+sensor+obstacle
+
 * 2x B3F-4055 tactile switch with cap<br />
   https://www.aliexpress.com/wholesale?SearchText=b3f-4055+with+cap
 
