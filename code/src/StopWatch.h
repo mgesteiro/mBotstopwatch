@@ -2,7 +2,7 @@ class StopWatch
 {
 	public:
 		// constructor
-		StopWatch(byte nlaps = 10);
+		StopWatch(uint8_t nlaps = 10);
 		~StopWatch();
 
 		// methods

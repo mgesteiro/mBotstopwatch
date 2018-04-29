@@ -126,7 +126,7 @@ void loop() {
 		showTime(currentTime);
 		whatLap++;
 		if ( whatLap >= NUM_LAPS ) whatLap = 0;
-		delay(250); // avoid bouncing
+		delay(350); // avoid bouncing
 	}
 	//=====================================================
 	//  SHOW TIME PART

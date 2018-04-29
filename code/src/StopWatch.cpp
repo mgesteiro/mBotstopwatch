@@ -4,7 +4,7 @@
 //////////////////////////////////////////////////////////////////////////////
 // PUBLIC
 //
-StopWatch::StopWatch(byte nlaps)
+StopWatch::StopWatch(uint8_t nlaps)
 {
 	// hard limit = 10 laps
 	if ( nlaps>10 ) _nlaps=10; else _nlaps=nlaps;
@@ -41,7 +41,7 @@ void StopWatch::stop()
 {
 	if ( _measuringTime )
 	{
-		_laps[_currentLap] = millis - _startTime;
+		_laps[_currentLap] = millis() - _startTime;
 		_measuringTime = false;
 	}
 }
@@ -58,9 +58,9 @@ bool StopWatch::running()
 	return _measuringTime;
 }
 
-unsigned long StopWatch::getLapTime(byte lap)
+unsigned long StopWatch::getLapTime(uint8_t lap)
 {
-	if ( 0 >= lap < _nlaps) return _laps[lap];
+	if ( (lap >= 0) && (lap < _nlaps) ) return _laps[lap];
 	else return 0;
 }
 

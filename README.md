@@ -20,11 +20,11 @@ In this folder you can find the [FreeCAD](https://freecadweb.org/) model with al
 
 
 ## Code
-In this folder you can find the code, ready to be used with the [PlatformIO core](http://docs.platformio.org/en/latest/core.html) system. It makes use of the [TM1637 library](https://github.com/reeedstudio/libraries/tree/master/DigitalTube) by *Frankie Chue*.
+In this folder you can find the code, ready to be used with the [PlatformIO core](http://docs.platformio.org/en/latest/core.html) system: just execute the `platformio run -t upload` command from within the folder (or run the `buildandupload.sh` shell script). It makes use of the [TM1637 library](https://github.com/reeedstudio/libraries/tree/master/DigitalTube) by *Frankie Chue*.
 
-If you want to use it with the [Arduino IDE](https://www.arduino.cc/en/Main/Software#download), just place all the code in the `/src` and `/lib/TM1637` folders together into a folder called `/crono` and then open the `crono.cpp` file into de IDE itself: from here on, you can operate as usual with any other *Arduino* program.
+If you want to use it with the [Arduino IDE](https://www.arduino.cc/en/Main/Software#download), just place all the files in the `/src` and `/lib/TM1637` folders together into a folder called `/crono` and then open the `crono.ino` file into de IDE itself: from there on, you can operate as usual with any other *Arduino* program.
 
-In the top part of the `crono.cpp` file there are some configurable parameters:
+In the top part of the `crono.ino` file there are some configurable parameters:
 * `CLK`, `DIO`: pins to which the display is connected (2 and 3 by default)
 * `IR_PIN`: pin to which the IR sensor is connected (6 by default)
 * `KP_PIN`: pin to which the keypad is connected (A4 by default)
