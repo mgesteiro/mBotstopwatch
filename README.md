@@ -4,11 +4,11 @@ This is a **simple small and compact stopwatch** created to measure lap times of
 
 ![The stopwach with the mBot behind](picture.jpg)
 
-We needed a **low-cost** way to measure lap times in a automatic, precise and simple way, so the kids could improve their work. This was designed and created with the [EEI's Robot Competition](http://eei.robots.webs.uvigo.es) held at the *Universtiy of Vigo* in mind, where **up to 14 circuits are operated simultaneously!**
+We needed a **low-cost** solution to measure lap times in a automatic, precise and simple way, so the kids could improve their work. This was designed and created with the [EEI's Robot Competition](http://eei.robots.webs.uvigo.es) held at the *Universtiy of Vigo* in mind, where **up to 14 circuits are operated simultaneously!**
 
 ## How does it work?
 
-Once the system is turned on, or reset (pushing the red button), it waits until the mBot (or any other thing) passes by the sensor and starts counting (showing it in real time). When the mBot passes again, it records the lap time, showing it for two seconds, but also keeps counting the next lap. Once the mbot performs the preconfigured number of laps (two by default), the system stops counting at all. At this moment, you can push the white button to see the stored lap times (round robin) or the reset button to start all over again.
+Once the system is turned on, or reset (pushing the red button), it waits until the mBot (or any other thing) passes by the sensor and starts counting (showing it in real time). When the mBot passes again, it records the lap time, showing it for two seconds, but also keeps counting the next lap. Once the mbot performs the preconfigured number of laps (two by default), the system stops counting at all. At this moment, you can push the white button to see the stored lap times (round robin) or the red reset button to start all over again.
 
 It uses an **infrared sensor** to detect de mBot passing by and a **4-Digit LED Display** to display the time (current or lap). It's based on an **Arduino Nano** type board, although any other similar board could be used as well. Some **parameters in the stopwatch program** can be configured. Refer to the *[Code](#code)* part to find out which/how.
 
